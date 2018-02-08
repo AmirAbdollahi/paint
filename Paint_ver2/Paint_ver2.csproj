@@ -1,0 +1,251 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{228A6D13-D1EF-492E-B60B-BAD6992AADC9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Paint_ver2</RootNamespace>
+    <AssemblyName>Paint_ver2</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="draw.cs" />
+    <Compile Include="font_color_size.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Ios7-Editing-Cut-Filled.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\32565.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Windows-8-Editing-Paste.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\080755-glossy-black-icon-business-document5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\68747470733a2f2f662e636c6f75642e6769746875622e636f6d2f6173736574732f333633363631312f313130373039362f36313130333533632d313935362d313165332d393930342d3536366266373038626338372e706e67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Icons8-Ios7-Editing-Cut-Filled1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\select-area-square-object-geometry-selection-place-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\crop-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\increased_proportionally_square_button-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8336-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\text-xxl.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3715-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3715-2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\687474703a2f2f6f70656e636c69706172742e6f72672f696d6167652f38303070782f7376675f746f5f706e672f3139303936312f636f6c6f725f7069636b65722e706e67.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6983-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\line1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\software_shape_oval-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shape_rectangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maps-Polygon-icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\shape_triangle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43774177-Triangle-right-angle-icon-vector-image-Can-also-be-used-for-shapes-and-geometry-Suitable-for-use-on--Stock-Vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download %283%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gg.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4899-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2108_-_Right_angle_Traingle-128.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diamond.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fgh.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fgh1.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_pentagon-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\outline_hexagon-256.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-icon-28.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow-icon-281.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Left_arrow_back_move_right.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrows1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\down_filled1600.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2000px-Four_points_star.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Five-pointed_star.svg.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\_six_point_star-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rounded rectangular callout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Oval callout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cloud callout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Heart.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Lightning.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colors-icon-4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Editing-Flip-Horizontal-icon.png" />
+    <None Include="Resources\Rotate Gesture %281%29.ico" />
+    <None Include="Resources\Rotate_left_arrow.png" />
+    <None Include="Resources\pictures-icon-22.gif" />
+    <None Include="Resources\40901.bmp" />
+    <None Include="Resources\1600.png" />
+    <Content Include="Resources\Anonymous-Pencil-icon2.ico" />
+    <Content Include="Resources\CursorPencil.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
