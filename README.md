@@ -13,6 +13,7 @@ Welcome to my **Paint** application — one of the first major challenges I tack
 
 ## Screenshots
 
+![image](https://github.com/user-attachments/assets/5e6f9663-c5de-4300-a16e-feb04ae520a3)
 
 ## Tech Stack
 
