@@ -17,14 +17,43 @@ Welcome to my **Paint** application — one of the first major challenges I tack
 
 ## Demo Video
 
-
 https://github.com/user-attachments/assets/805816d0-c116-497b-a5af-974519175c3e
 
+---
 
-## Tech Stack
+## Project Goals
 
-- Language: **C#**
-- Framework: **.NET Framework (WinForms)**
+The main goal of this project was to simulate the basic functionalities of the classic Microsoft Paint application using **C#** and **WinForms**. The focus was on learning graphical programming concepts, handling user inputs, and building an interactive desktop UI. It served as a hands-on project to understand:
+
+- Event-driven programming
+- Drawing graphics on a canvas
+- Real-time mouse interaction
+- Building user-friendly interfaces
+
+---
+
+## Architecture Overview
+
+The project follows a simple structure, designed for learning and experimentation rather than scalability. Here's an overview of how it's built:
+
+- **Windows Forms (WinForms)**: Used for the UI and drawing surface.
+- **Main Form (UI Layer)**: Contains buttons, color selectors, and the drawing canvas.
+- **Drawing Logic**: Handles mouse events (Down, Move, Up) to draw on the canvas using the `Graphics` object.
+- **State Management**: Keeps track of selected tool, color, brush size, and drawing mode.
+
+---
+
+## Technical Details
+
+- **Language**: C#
+- **Framework**: .NET Framework (WinForms)
+- **Drawing Surface**: `PictureBox` or a custom panel used to handle drawing.
+- **Rendering**: Uses `Graphics` class for shapes and freehand lines.
+- **Mouse Events**: `MouseDown`, `MouseMove`, and `MouseUp` events are used for drawing actions.
+- **Brush Settings**: Allows changing color and pen width dynamically.
+- **Save Feature**: Exports the drawing as an image file using `Bitmap` and `SaveFileDialog`.
+
+---
 
 ## How to Run
 
