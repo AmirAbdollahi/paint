@@ -15,6 +15,12 @@ Welcome to my **Paint** application — one of the first major challenges I tack
 
 ![image](https://github.com/user-attachments/assets/5e6f9663-c5de-4300-a16e-feb04ae520a3)
 
+## Demo Video
+
+
+https://github.com/user-attachments/assets/805816d0-c116-497b-a5af-974519175c3e
+
+
 ## Tech Stack
 
 - Language: **C#**
