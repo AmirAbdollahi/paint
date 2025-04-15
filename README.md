@@ -15,9 +15,9 @@ Welcome to my **Paint** application — one of the first major challenges I tack
 
 ![image](https://github.com/user-attachments/assets/5e6f9663-c5de-4300-a16e-feb04ae520a3)
 
-## Demo Video
+## Demo GIF
 
-https://github.com/user-attachments/assets/805816d0-c116-497b-a5af-974519175c3e
+![PaintDemo_2](https://github.com/user-attachments/assets/15594f7c-c27b-4280-841a-72b8a10cff40)
 
 ---
 
